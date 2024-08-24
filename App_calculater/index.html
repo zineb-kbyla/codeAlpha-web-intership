@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elegant Age Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="calculator-container">
+    <div class="calculator-card">
+      <div class="icon">
+        <img src="https://cdn-icons-png.flaticon.com/512/875/875610.png" alt="calendar icon" />
+      </div>
+      <h1>Age Calculator</h1>
+      <p>Enter your date of birth to discover your exact age!</p>
+      <form id="ageCalculatorForm">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+        <button type="submit">Calculate Age</button>
+      </form>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
